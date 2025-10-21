@@ -12,7 +12,7 @@ export const projects: Project[] = [
     description:
       "Plataforma completa (App iOS/Android e painel web) para resolver os desafios de logística e comunicação de um grupo musical com mais de 100 membros.",
     tags: ["Flutter", "Dart", "Firebase", "React"],
-    link: "https://github.com/XablauGtx/chama-coral-app",
+    link: "https://github.com/XablauGtx/Chama-APP-PF",
     linkText: "Ver Estudo de Caso",
     googlePlayLink:
       "https://play.google.com/store/apps/details?id=br.com.glinfo.chamacoral&hl=pt_BR",
