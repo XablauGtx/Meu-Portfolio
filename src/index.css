@@ -1,3 +1,26 @@
+/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.project-card-glow {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: visible;
+  }
+  
+  .project-card-glow::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: 0 0 20px rgba(60,130,255,0);
+    transition: box-shadow 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .project-card-glow:hover::before {
+    box-shadow: 0 0 25px rgba(60,130,255,0.7), 0 0 40px rgba(60,130,255,0.5);
+  }
+  
+  
