@@ -48,7 +48,7 @@ const ProjectCard: React.FC<Project> = ({
               <img
                 src={googlePlayBadge}
                 alt="Disponível no Google Play"
-                className="h-8"
+                className="h-8 brightness-0 invert"
               />
             </a>
           )}
@@ -63,7 +63,7 @@ const ProjectCard: React.FC<Project> = ({
               <img
                 src={appleStoreBadge}
                 alt="Disponível na App Store"
-                className="h-8"
+                className="h-8 brightness-0 invert"
               />
             </a>
           )}
